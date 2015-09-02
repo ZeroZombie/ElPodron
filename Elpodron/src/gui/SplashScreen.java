@@ -1,6 +1,5 @@
 package gui;
 
-import gui.LoginGUI;
 import java.awt.*;
 import javax.swing.*;
 public class SplashScreen extends JWindow {
