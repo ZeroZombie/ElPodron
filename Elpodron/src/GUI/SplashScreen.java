@@ -1,4 +1,4 @@
-package GUI;
+package gui;
 
 import gui.LoginGUI;
 import java.awt.*;
