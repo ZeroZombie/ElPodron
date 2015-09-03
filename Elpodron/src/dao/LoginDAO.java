@@ -44,7 +44,7 @@ public class LoginDAO {
 
 boolean ok = false;
 
-String sql = "SELECT nome, senha FROM funcionarios WHERE nome = ? and senha = ?" ;
+String sql = "SELECT nome, senha FROM usuario WHERE nome = ? and senha = ?" ;
 
 try {
 
@@ -79,7 +79,7 @@ return ok;
     
   public Login recupera(Login login){
         Login retorno = new Login();
-        String sql = "SELECT nome, senha FROM funcionarios WHERE nome = ?" ;
+        String sql = "SELECT nome, senha FROM usuario WHERE nome = ?" ;
   try {
     PreparedStatement stmt = connection.prepareStatement(sql);
            stmt.setString(1,login.getNome());

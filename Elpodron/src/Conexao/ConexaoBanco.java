@@ -16,7 +16,7 @@ public Connection getConnection() {
 
 try {
 
-return DriverManager.getConnection("jdbc:mysql://localhost/elpodron/funcionarios","root","");
+return DriverManager.getConnection("jdbc:mysql://localhost/funcionarios/","root","");
 
 }
 
